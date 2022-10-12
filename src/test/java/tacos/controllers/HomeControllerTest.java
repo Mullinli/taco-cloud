@@ -1,4 +1,4 @@
-package sia.tacocloud.controllers;
+package tacos.controllers;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
