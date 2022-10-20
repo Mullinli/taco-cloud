@@ -1,0 +1,31 @@
+.grid {
+    display: grid;
+      grid-template-columns: repeat(2, 0.25fr);
+      gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+}
+
+#wraps {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#proteins {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#cheese {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#veggies {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#sauces {
+    grid-column: 1;
+    grid-row: 3;
+}
