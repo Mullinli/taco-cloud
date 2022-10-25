@@ -29,3 +29,7 @@
     grid-column: 1;
     grid-row: 3;
 }
+
+.validationError {
+    color: #FF0000;
+}
